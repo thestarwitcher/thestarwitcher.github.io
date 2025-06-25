@@ -2,40 +2,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tomasz Mocny - Official Website</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tomasz Mocny - Official Music Site</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <header>
-        <h1>Tomasz Mocny</h1>
-        <p>Official Music Page</p>
+        <div class="logo">Tomasz Mocny</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#videos">Videos</a>
+            <a href="#shop">Shop</a>
+        </nav>
     </header>
 
-    <section id="about">
-        <img src="profile.jpg" alt="Tomasz Mocny" class="profile">
-        <h2>About Me</h2>
-        <p>I'm Tomasz Mocny, an independent disco music producer. My tracks are full of retro power, inspired by the vibe of the 80s and dancefloors full of neon light.</p>
+    <section class="hero">
+        <img src="images/profile.jpg" alt="Tomasz Mocny" class="profile-pic" />
+        <h1>Hello, I'm Tomasz Mocny</h1>
+        <p>Musician | Disco / 80s Vibes | Worldwide Shipping</p>
     </section>
 
-    <section id="music">
-        <h2>Watch My Music Video</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZAMIEŃ_TUTAJ_NA_ID_FILMU" frameborder="0" allowfullscreen></iframe>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Tomasz Mocny is a talented disco artist known for his energetic tunes and retro style.
+            Bringing back the vibes of the 80s with modern beats, Tomasz captivates audiences worldwide.
+        </p>
+    </section>
+
+    <section id="videos">
+        <h2>Featured Video</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/gZa20r09vZs" 
+                title="YouTube video player" frameborder="0" allowfullscreen></iframe>
     </section>
 
     <section id="shop">
-        <h2>Buy My CDs</h2>
-        <ul>
-            <li><a href="http://kunaki.com/Sales.asp?PID=PX00ZMTDKS&PP=1" target="_blank">CD 1 – Buy Now</a></li>
-            <li><a href="http://kunaki.com/Sales.asp?PID=PX007O9853&PP=1" target="_blank">CD 2 – Buy Now</a></li>
-            <li><a href="http://kunaki.com/Sales.asp?PID=PX00PLSA4K&PP=1" target="_blank">CD 3 – Buy Now</a></li>
+        <h2>Shop</h2>
+        <p>Get my albums shipped worldwide. Choose your favorite and click Buy now!</p>
+        <ul class="albums">
+            <li>
+                <strong>Album 1</strong><br/>
+                <a href="http://kunaki.com/Sales.asp?PID=PX00ZMTDKS&PP=1" target="_blank" class="buy-btn">Buy Now</a>
+            </li>
+            <li>
+                <strong>Album 2</strong><br/>
+                <a href="http://kunaki.com/Sales.asp?PID=PX007O9853&PP=1" target="_blank" class="buy-btn">Buy Now</a>
+            </li>
+            <li>
+                <strong>Album 3</strong><br/>
+                <a href="http://kunaki.com/Sales.asp?PID=PX00PLSA4K&PP=1" target="_blank" class="buy-btn">Buy Now</a>
+            </li>
         </ul>
-        <p>Worldwide shipping available via USPS and UPS.</p>
+        <div class="shipping-info">
+            <h3>Worldwide Shipping Options</h3>
+            <ul>
+                <li>USPS First Class Mail (2-6 business days) - $5.00</li>
+                <li>USPS Priority Mail (1-3 business days) - $8.00</li>
+                <li>UPS Ground (1-5 business days) - $11.75</li>
+                <li>UPS 2nd Day Air (2 business days) - $20.82</li>
+                <li>UPS Next Day Air Saver (1 business day) - $34.34</li>
+            </ul>
+        </div>
     </section>
 
     <footer>
-        <p>Follow me on <a href="https://www.instagram.com/thestarwitcher/" target="_blank">Instagram</a></p>
+        <p>© 2025 Tomasz Mocny. All rights reserved.</p>
     </footer>
 </body>
 </html>
